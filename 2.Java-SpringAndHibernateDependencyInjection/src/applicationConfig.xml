@@ -8,7 +8,10 @@
    <bean id = "myFortune" class = "HappyFortuneService">
    </bean>
    
-   <bean id ="myCoach" class="BaseBallCoach">
+  <!--  <bean id ="myCoach" class="BaseBallCoach">
+   <constructor-arg ref="myFortune"></constructor-arg>
+   </bean> -->
+    <bean id ="myCoach" class="TrackCoach">
    <constructor-arg ref="myFortune"></constructor-arg>
    </bean>
    
