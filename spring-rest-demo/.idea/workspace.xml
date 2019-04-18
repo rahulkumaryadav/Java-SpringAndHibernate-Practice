@@ -60,7 +60,7 @@
       <file leaf-file-name="DemoRestController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-rest-demo/src/main/java/com/luv2code/springdemo/rest/DemoRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="192">
               <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -425,12 +425,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555476358409</updated>
-      <workItem from="1555476361006" duration="6783000" />
+      <workItem from="1555476361006" duration="7382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6783000" />
+    <option name="totallyTimeSpent" value="7382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -520,7 +520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-rest-demo/src/main/java/com/luv2code/springdemo/rest/DemoRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="192">
           <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
