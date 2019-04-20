@@ -4,26 +4,28 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.luv2code.springboot.cruddemo.dao.EmployeeDao;
+import com.luv2code.springboot.cruddemo.dao.EmployeeDao1;
 import com.luv2code.springboot.cruddemo.entity.Employee;
 
+
+/*Rishabh*/
 
 @Service
 public class EmployeeService {
 
-	private EmployeeDao employeeDao;
+	private EmployeeDao1 employeeDao1;
 
-	public EmployeeService(EmployeeDao employeeDao) {
-		this.employeeDao = employeeDao;
+	public EmployeeService(EmployeeDao1 employeeDao1) {
+		this.employeeDao1 = employeeDao1;
 	}
 	
 	public List<Employee> findAll(){
-		List<Employee> employees = employeeDao.findAll();
+		List<Employee> employees = employeeDao1.findAll();
 		return employees;
 	}
 	
 	public Employee  save(Employee employee) {
-			Employee emp = employeeDao.save(employee);
+			Employee emp = employeeDao1.save(employee);
 			return emp;
 	}
 	

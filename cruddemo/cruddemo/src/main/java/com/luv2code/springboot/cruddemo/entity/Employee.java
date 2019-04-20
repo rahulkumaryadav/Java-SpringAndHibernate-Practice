@@ -9,13 +9,13 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="employee")
-public class Employee {
+public class Employee  {
 	
 	//define fields
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id")
-	private int id;
+	private Integer id;
 	
 	@Column(name="first_Name")
 	private String firstName;
